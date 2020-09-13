@@ -14,14 +14,14 @@ public:
     // Q(bullshit); // 等价于声明`void bullshit(int *p, const string& s1, const string& s2, size_t size, bool is_true);`
 };
 
-int main()
-{
-    X *xx;
-    printf("shit ret: %d\n", xx->eat_shit());
-    int a[] = {1, 3, 4, 5, 7};
-    xx->bullshit(a, "foo", "bar", sizeof(a) / sizeof(int), true);
-    system("pause");
-}
+// int main()
+// {
+//     X *xx;
+//     printf("shit ret: %d\n", xx->eat_shit());
+//     int a[] = {1, 3, 4, 5, 7};
+//     xx->bullshit(a, "foo", "bar", sizeof(a) / sizeof(int), true);
+//     system("pause");
+// }
 
 int X::eat_shit()
 {

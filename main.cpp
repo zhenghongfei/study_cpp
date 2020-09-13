@@ -10,10 +10,10 @@ void TestCppStudent()
     // Name:zhf,Age:40,Score:60.1
 }
 
-// int main()
-// {
-//     TestCppStudent();
+int main()
+{
+    TestCppStudent();
 
-//     system("pause");
-//     return 0;
-// }
+    system("pause");
+    return 0;
+}

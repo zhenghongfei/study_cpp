@@ -26,29 +26,29 @@ void PeopleTest::TestStudent(Student s)
     s.say();
 }
 
-int main()
-{
-    People *p = new Student("zhf", 40, 60.1);
+// int main()
+// {
+//     People *p = new Student("zhf", 40, 60.1);
 
-    PeopleTest pt;
-    pt.TestPeoplePointer(p);
-    pt.TestPeopleReference(*p);
-    pt.TestStudent(*(dynamic_cast<Student *>(p)));
-    delete p;
+//     PeopleTest pt;
+//     pt.TestPeoplePointer(p);
+//     pt.TestPeopleReference(*p);
+//     pt.TestStudent(*(dynamic_cast<Student *>(p)));
+//     delete p;
 
-    // Name:zhf,Age:40,Score:60.1
-    // Name:zhf,Age:40,Score:60.1
-    // Name:zhf,Age:40,Score:60.1
+//     // Name:zhf,Age:40,Score:60.1
+//     // Name:zhf,Age:40,Score:60.1
+//     // Name:zhf,Age:40,Score:60.1
 
-    Student pp("zhf1", 39, 70.1);
-    pt.TestPeoplePointer(&pp);
-    pt.TestPeopleReference(pp);
-    pt.TestStudent(pp);
+//     Student pp("zhf1", 39, 70.1);
+//     pt.TestPeoplePointer(&pp);
+//     pt.TestPeopleReference(pp);
+//     pt.TestStudent(pp);
 
-    // Name:zhf1,Age:39,Score:70.1
-    // Name:zhf1,Age:39,Score:70.1
-    // Name:zhf1,Age:39,Score:70.1
+//     // Name:zhf1,Age:39,Score:70.1
+//     // Name:zhf1,Age:39,Score:70.1
+//     // Name:zhf1,Age:39,Score:70.1
 
-    system("pause");
-    return 0;
-}
+//     system("pause");
+//     return 0;
+// }

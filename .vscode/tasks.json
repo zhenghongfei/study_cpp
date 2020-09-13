@@ -6,7 +6,7 @@
 			"label": "g++",
 			"command": "D:\\mingw64\\bin\\g++.exe",
 			"args": [
-				"${workspaceFolder}\\TypeDefTest.cpp",
+				"${workspaceFolder}\\*.cpp",
 				"-o",
 				"${workspaceFolder}\\${workspaceFolderBasename}.exe",
 				"-g"
